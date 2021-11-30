@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App-background {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App-card-dark {
+  background-color: #282c34 !important;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-banner{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-footer{
+  color: #455a64 ;
+}
+.App-title {
+  color: #039be5 ;
+}
+.App-subtitle {
+  color: #8eb2c7 ;
+  font-weight: bolder;
+}
+.App-paragraph {
+  color: #9dabb3 ;
+}
+.App-btn-outline-info {
+  color: #039be5;
+  border-color: #039be5;
+}
+.App-btn-outline-info:hover {
+  color: #fff;
+  background-color: #01579b;
+  border-color: #01579b;
+}
+.App-link {
+  color: #039be5 ;
+  text-decoration: none;
+}
+.App-link:hover {
+  color: #01579b ;
+}
+.App-navbar-link {
+  color: white ;
+  text-decoration: none;
+}
+.App-navbar-link:hover {
+  color: #039be5 ;
+}
+.App-link-comprar {
+  color: #ffc107;
+  text-decoration: none;
+}
+.App-navbar-link:hover {
+  color: #d39e00 ;
+}
+.App-active{
+  border-bottom: 2px solid #039be5;
+}
+.App-active-comprar{
+  border-radius: 2px;
+  border-bottom: 2px solid #d39e00;
+}
+.h-100{
+  height: 100vh;
+  max-height: auto;
+}
+.lh-base{
+  letter-spacing: 1.5px;
+}
+.App-full-height{
+  height: 100%;
 }
